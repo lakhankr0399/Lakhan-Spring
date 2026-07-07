@@ -17,10 +17,7 @@ public class Main {
 		Employee bean2=ioc.getBean("emp2", Employee.class);
 		System.out.println(bean2);
 		
-		
-		
-		
-		
+				
 
 	}
 

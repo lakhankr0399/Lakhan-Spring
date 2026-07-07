@@ -17,6 +17,39 @@
     <property name="gender" value="Male"/>
     <property name="salary" value="30000"/>
     <property name="address" ref="add1"/>
+    <property name="List">
+       <list>
+         <value>11</value>
+         <value>12</value>
+         <value>13</value>
+         <value>11</value>
+         <value>16</value>
+         <value>18</value>
+         <value>11</value>
+      </list>
+    </property>
+    
+    <property name="Set">
+        <set>
+          <value>11</value>
+          <value>12</value>
+          <value>13</value>
+          <value>11</value>
+          <value>16</value>
+          <value>18</value>
+          <value>11</value>
+        </set>
+    </property>
+    
+    <property name="Map">
+       <map>
+         <entry key="11" value="Nakul" />
+         <entry key="11" value="Aditya" />
+         <entry key="13" value="Nikhil" />
+         <entry key="14" value="Arjun" />
+         <entry key="15" value="Swati" />    
+       </map>
+    </property>
     </bean>
     
     <bean name="add2" class="com.learning.model.Address">
@@ -29,8 +62,41 @@
     <constructor-arg name="name" value="Monika"/>
     <constructor-arg name="gender" value="Female"/>
     <constructor-arg name="salary" value="35000"/>
-    <constructor-arg name="address" ref="add2"/>
-    </bean>
+    <constructor-arg name="address" ref="add2"/> 
+    <constructor-arg name="List">
+       <list>
+         <value>11</value>
+         <value>12</value>
+         <value>13</value>
+         <value>11</value>
+         <value>16</value>
+         <value>18</value>
+         <value>11</value>
+      </list>
+    </constructor-arg>
+    
+    <constructor-arg name="Set">
+        <set>
+          <value>11</value>
+          <value>12</value>
+          <value>13</value>
+          <value>11</value>
+          <value>16</value>
+          <value>18</value>
+          <value>11</value>
+        </set>
+    </constructor-arg>
+    
+    <constructor-arg name="Map">
+       <map>
+         <entry key="11" value="Nakul" />
+         <entry key="11" value="Aditya" />
+         <entry key="13" value="Nikhil" />
+         <entry key="14" value="Arjun" />
+         <entry key="15" value="Swati" />
+       
+       </map>
+    </constructor-arg>
 
-
+ </bean>
 </beans>
