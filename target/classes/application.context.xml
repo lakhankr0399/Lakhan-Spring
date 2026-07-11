@@ -17,7 +17,7 @@
     <property name="gender" value="Male"/>
     <property name="salary" value="30000"/>
     <property name="address" ref="add1"/>
-    <property name="List">
+    <property name="list">
        <list>
          <value>11</value>
          <value>12</value>
@@ -29,7 +29,7 @@
       </list>
     </property>
     
-    <property name="Set">
+    <property name="set">
         <set>
           <value>11</value>
           <value>12</value>
@@ -41,7 +41,7 @@
         </set>
     </property>
     
-    <property name="Map">
+    <property name="map">
        <map>
          <entry key="11" value="Nakul" />
          <entry key="11" value="Aditya" />
@@ -63,7 +63,7 @@
     <constructor-arg name="gender" value="Female"/>
     <constructor-arg name="salary" value="35000"/>
     <constructor-arg name="address" ref="add2"/> 
-    <constructor-arg name="List">
+    <constructor-arg name="list">
        <list>
          <value>11</value>
          <value>12</value>
@@ -75,7 +75,7 @@
       </list>
     </constructor-arg>
     
-    <constructor-arg name="Set">
+    <constructor-arg name="set">
         <set>
           <value>11</value>
           <value>12</value>
@@ -87,7 +87,7 @@
         </set>
     </constructor-arg>
     
-    <constructor-arg name="Map">
+    <constructor-arg name="map">
        <map>
          <entry key="11" value="Nakul" />
          <entry key="11" value="Aditya" />

@@ -1,7 +1,5 @@
 package com.learning.model;
 
-
-
 public class Address {
 	
 	private String city,state;
